@@ -16,7 +16,7 @@ The Bash Colors Library is a simple and lightweight library designed to add colo
 To use the Bash Colors Library, simply source the `bash_colors_lib` file in your script:
 
 ```bash
-source /path/to/bash_colors_lib
+source /path/to/bash_colors_lib.sh
 ```
 
 ## Usage
@@ -33,6 +33,12 @@ echo -e "${b_red_bd}This is bold text"
 # Print underlined text
 echo -e "${u_red_bd}This is underlined text$"
 ```
+white Google on console
+
+```bash
+echo -e "${b_blue_bw}G${b_red_bw}o${b_yellow_bw}o${b_blue_bw}g${b_green_bw}l${b_red_bw}e${white_bd}" //  : Google
+```
+
 ### #################################################################################
 ## Available Styles using prefix
 ### #################################################################################

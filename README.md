@@ -44,6 +44,7 @@ echo -e "${u_red_bd}This is underlined text$"
 
 
 Number| Styles |prefix
+------------- | -------------|-------------
  00: |Nenhum |               none
  01: |Negrito(bold)|         b_
  04: |Sublinhado(Underline)| u_
@@ -67,7 +68,7 @@ Number| Styles |prefix
 
 
  --|(Text Colors)|--
-
+ ------------- | -------------|-------------
  30:| Preto|                 black
  31:| Vermelho|              red
  32:| Verde  |               green
@@ -85,6 +86,7 @@ Number| Styles |prefix
 ### ##################################################################################
 
  --|Background colors|sufix
+ ------------- | -------------|-------------
  00:| none |                 _  (Only underscore )
  40:| (Black)Preto|                 _bd (dark)
  41:| (Red)Vermelho|              _br

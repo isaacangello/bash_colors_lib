@@ -39,6 +39,11 @@
 # 46: Ciano (Azul Ciano)    _bc
 # 47: Branco                _bw
 
+# especial styles 
+# no color style
+# 00: nc      
+
+
 # references
 # https://aurelio.net/shell/canivete/#cores
 # https://unix.stackexchange.com/questions/694075/display-a-message-in-color-by-a-conventional-color-name-such-as-red-green-blue
@@ -47,17 +52,26 @@
 ####################################################################################
 ############ the basic session style
 ####################################################################################
+
 NC="\033[00m"
 nc="\033[00m"
-black="\033[00;30;00m"
-red="\033[00;31;00m"
-green="\033[00;32;00m"
-yellow="\033[00;33;00m"
-blue="\033[00;34;00m"
-magenta="\033[00;35;00m"
-ciano="\033[00;36;00m"
-white="\033[00;37;00m"
+black='\033[30m'
+red='\033[31m'
+green='\033[32m'
+yellow='\033[33m'
+blue='\033[34m'
+magenta='\033[35m'
+ciano='\033[36m'
+white='\033[37m'
 
+black_='\033[30m'
+red_='\033[31m'
+green_='\033[32m'
+yellow_='\033[33m'
+blue_='\033[34m'
+magenta_='\033[35m'
+ciano_='\033[36m'
+white_='\033[37m'
 
 
 ####################################################################################
